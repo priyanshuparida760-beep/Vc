@@ -46,7 +46,8 @@ from pyrogram.errors import (
     InviteHashExpired, InviteHashInvalid, AuthKeyUnregistered,
     UserDeactivated, SessionPasswordNeeded
 )
-from pytgcalls import PyTgCalls, idle
+from pytgcalls import PyTgCalls
+from pytgcalls import idle
 from pytgcalls.types import ExternalMedia, MediaStream
 from pytgcalls.types.raw import AudioParameters
 from pytgcalls.exceptions import NoActiveGroupCall
