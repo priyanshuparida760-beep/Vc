@@ -47,7 +47,9 @@ from pyrogram.errors import (
     UserDeactivated, SessionPasswordNeeded
 )
 from pytgcalls import PyTgCalls
-from pytgcalls.types import MediaStream, AudioParameters
+from pytgcalls import idle
+from pytgcalls.types import ExternalMedia, MediaStream
+from pytgcalls.types.raw import AudioParameters
 from pytgcalls.exceptions import NoActiveGroupCall
 
 # ==================== CONFIG ====================
